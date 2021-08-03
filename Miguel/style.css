@@ -1,0 +1,312 @@
+ * { 
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0; 
+}
+
+nav { 
+    padding: 5px 20px; 
+    justify-content: center;
+
+}
+
+ul { 
+    list-style-type: none; 
+}
+
+a { 
+    color: white; 
+    text-decoration: none; 
+}
+
+a:hover { 
+    text-decoration: underline; 
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sobre-nosotros {
+    display: flex; 
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.acordion-somos {
+    margin-top: 2%;
+}
+
+.fondo-contacto {
+    width: 100%;
+    height: 100%;
+}
+
+.menu li { 
+    font-size: 22px; 
+    padding: 15px 5px; 
+    white-space: nowrap; 
+}
+
+/* Mobile menu */ 
+@media only screen and (max-width: 400px) {
+   .menu { 
+       display: flex; 
+       flex-wrap: wrap; 
+       justify-content: space-between; 
+       align-items: center; 
+    } 
+}
+.logo {
+    height: 60%;
+    text-align: center;
+}
+
+.fondo{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fff;
+    
+}
+
+img {
+    height: 300px;
+    width: 400px;
+}
+
+.logo-navbar{
+    width: 10%;
+    height: 14%;
+}
+
+.whatsapp {
+    width: 70px;
+    height:70px;
+}        
+
+
+.btn-whatsapp {
+        width:70px;
+        height:70px;
+        display:block;
+        color: #fff;
+        position: fixed;
+        right:20px;
+        bottom:20px;
+        border-radius:50%;
+        line-height:80px;
+        text-align:center;
+        z-index:999;
+}
+
+.titulo {
+    font-size: 50px;
+    color: gold;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+video {
+    height: 30%;
+
+}
+
+.carrousel {
+    cursor: pointer;
+}
+
+.fondo-somos {
+    width: 100%;
+    height: 100%;
+}
+
+.modelos {
+    margin-top: 10%;
+}
+
+.plandeahorro {
+    display: flex;
+    justify-content: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-top: 5%;
+}
+
+.video{
+    display: flex;
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+hr {
+    align-items: center;
+}
+
+.nombres {
+    font-size: 25px;
+    color: navy;
+    height: 40px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.numero {
+    font-size: 25px;
+    color: navy;
+    height: 40px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.galery {
+    margin-top: 10%;
+}
+
+.version {
+    font-size: 25px;
+    color: navy;
+    height: 40px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.modelo {
+    font-size: 25px;
+    color: navy;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.color {
+    font-size: 25px;
+    color: navy;
+    height: 40px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.localidad {
+    font-size: 25px;
+    color: navy;
+    height: 40px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+.Nosotros {
+    display: contents;
+    font-size: 25px;
+}
+
+
+footer {
+    clear: both;
+    float: left;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(7, 7, 7);
+    margin-top: 10%;
+    color: white;
+    font-size: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.formulario-contacto {
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.2);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 5%;
+    border-radius: 7px;
+}
+
+.Contact {
+    text-align: center;
+}
+
+h3 {
+    color: #000;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+ }
+
+.input-contact {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+.card-img-top{
+    width: 100px;
+    padding: 10px;
+    height: 60%;
+
+}
+.card-text{
+    color: #000;
+}
+.card-uno{
+    padding: 10px;
+
+}
+
+.card-inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.accordion-item {
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 60%;
+    margin-left: 20%;  
+}
+
+accordionaccordion-flush {
+     box-sizing: border-box;
+    border-radius: 10px;
+    width: 60%;
+    margin-left: 20%; 
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.sobre-nosotros {
+    display: flex;
+justify-content: center;
+}
+.galeria .col-lg-4 {
+    margin: 10;
+    padding: 25px;
+}
+.galeria img {
+    width: 100%;
+    height: 80px;
+    
+}
+.galeria img:hover {
+    border: 5px solid ;
+    color: white;
+}
+
+
+.portada {
+    width: 100%;
+    height: 100%;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
